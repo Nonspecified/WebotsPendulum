@@ -23,9 +23,9 @@ rightMotor.setVelocity(0.0)
 maxSpeed = min(rightMotor.getMaxVelocity(), leftMotor.getMaxVelocity())
 
 # Define the PID control constants and variables.
-KP = 31.4
+KP = 100.0
 KI = 100.5
-KD = 0
+KD = 100
 integral = 0.0
 previous_position = 0.0
 
